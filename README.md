@@ -47,3 +47,9 @@ a single id at a time.
 Now within [Program.cs](./src/Example/Program.cs), change `ExecutionStrategy.Serial`
 to `ExecutionStrategy.Parallel`. Now repeat the [Recreation step](#recreate-n1) except
 that this time, you should only observe the dataloader being executed once.
+
+
+## Helpful Links
+
+* [HotChocolate DataLoader Documentation](https://chillicream.com/docs/hotchocolate/v15/fetching-data/dataloader)
+* [DataLoader LoadAsync Implementation](https://github.com/ChilliCream/graphql-platform/blob/main/src/GreenDonut/src/GreenDonut/DataLoaderBase.cs#L107)
